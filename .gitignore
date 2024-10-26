@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Local environments
+.env
+*.env
+
+# Data files
+*.csv
+*.xlsx
+data/raw/
+data/processed/
+
+# Logs and other outputs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or text editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Unit test / coverage reports
+.coverage
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Test database files
+*.db
+*.sqlite
+
+# Pipenv files (if using Pipenv)
+Pipfile.lock
+
+

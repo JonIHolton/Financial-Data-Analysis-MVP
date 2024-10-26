@@ -55,7 +55,9 @@ def main():
             print(f"  {metric_name}: {metric_value:.4f}")
     
     # Step 7: Plot predictions (example: using Random Forest)
-    plot_model_predictions(models['Random Forest'], X_test, y_test)
+    plot_model_predictions(models['Random Forest'], 'Random Forest', X_test, y_test)
+    plot_model_predictions(models['Linear Regression'], 'Linear Regression', X_test, y_test)
+    plot_model_predictions(models['Decision Tree'], 'Decision Tree', X_test, y_test)
 
     # End the timer and calculate the total time
     end_time = time.time()
@@ -64,6 +66,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
